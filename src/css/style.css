@@ -1,0 +1,112 @@
+body{
+    background: #d2d2c1 url('/src/image/fundo.png');
+    font: 16px Arial, Helvetica, sans-serif;
+}
+#principal{
+    
+    width: 900px;
+  
+}
+#menu{
+    background: #c5c5b2;
+    padding: 18px;
+    
+}
+
+a{
+    color: #4b566a;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+    
+}
+
+a:hover{
+    color: #000;
+
+}
+
+#conteudo{
+    background: #e8e8d9;
+    padding:10px;
+}
+
+.centralizar{
+    text-align: center;
+}
+h1{
+    color: #000;
+    font-size:  1.2em;
+    
+}
+
+h2{
+    font-size: 1em;
+}
+/* h3{
+    font-size: 1em;
+    padding: 5px;
+} */
+
+ol {
+    list-style: none;
+    counter-reset: item;
+    padding-left: 0;
+}
+
+ol li {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+ol li:before {
+    content: counter(item);
+    counter-increment: item;
+    background: rgb(0, 0, 0);
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+    margin-right: 10px;
+}
+
+.compartilhe{
+    
+}
+
+.img-campanha{
+    border: 10px solid #828271;
+    width: 627px;
+    height: 425px;
+}
+
+#ytb :hover{
+color: #c4302b;
+}
+
+#tw :hover{
+    color: #00acee;
+}
+
+#insta :hover{
+    color: #E4405F;
+}
+#linkedin :hover{
+    color: #0e76a8;
+}
+#face :hover{
+    color: #3b5998;
+}
+#contatoh1{
+    font-size: 15px;
+}
+#ft{
+   height: 425px;
+}
+#email :hover{
+    color: #720e9e ;
+}
